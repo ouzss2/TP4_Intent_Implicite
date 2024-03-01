@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter URL" />
+
+    <Button
+        android:id="@+id/buttonOpenUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open URL"
+        android:layout_marginBottom="50dp"/>
+
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Location" />
+
+    <Button
+        android:id="@+id/buttonOpenLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Location"
+        android:layout_marginBottom="50dp"/>
+
+    <EditText
+        android:id="@+id/editTextShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Text to Share" />
+
+    <Button
+        android:id="@+id/buttonShareText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Text" />
+
+</LinearLayout>
